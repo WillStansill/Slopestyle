@@ -12,6 +12,7 @@
     top: 0;
     background-color: themed("bg");
     color: themed("textColor");
+    z-index: 999;
 
     .left{
         display: flex;
@@ -39,6 +40,10 @@
                 background-color: transparent;
                 color: themed("textColor");
 
+                @include mobile{
+                    display: none;
+                }
+
             }
         }
     }
@@ -46,6 +51,10 @@
         display: flex;
         align-items: center;
         gap: 20px;
+
+        @include mobile{
+            display: none;
+        }
 
 
         .user{
@@ -61,9 +70,7 @@
                     object-fit: cover;;
 
             }
-            span{
-
-            }
+            
         }
     }
 }
