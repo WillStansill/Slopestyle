@@ -17,9 +17,9 @@ const Login = () => {
         <div className ="card">
     <div className="left">
  
-        <h1>Hello world</h1>
+        <h1>Slopestyle</h1>
         <p>
-            A whole bunch of stuff goin on ya heard
+            Send It, Stomp It, Certify It
         </p>
         <span>Dont't you have an account? </span>
         <Link to="/register">

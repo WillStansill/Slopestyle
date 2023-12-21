@@ -1,6 +1,7 @@
 .login{
 height: 100vh;
 background-color: rgb(194, 190, 255);
+
 display: flex;
 align-items: center;
 justify-content: center;
@@ -13,7 +14,7 @@ justify-content: center;
         overflow: hidden;
         .left{
             flex: 1;
-            background: linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.5)), url("https://images.pexels.com/photos/3228727/pexels-photo-3228727.jpeg?auto=compress&cs=tinysrgb&w=1600") center;
+            background: linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.5)), url("https://images.pexels.com/photos/290452/pexels-photo-290452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") center;
             background-size: cover;
             padding: 50px;
             display: flex;
